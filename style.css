@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #202124;
+}
+
+body {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#canvasWrapper {
+  width: 50%;
+  height: 75%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
